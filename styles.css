@@ -548,9 +548,9 @@ a {
 
 /* Systems */
 .systems-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
 }
 
 .system-card {
@@ -1623,7 +1623,6 @@ footer {
     width: 100%;
   }
 }
-
 /* Final Mobile Hero Fix */
 @media (max-width: 768px) {
     .hero {
